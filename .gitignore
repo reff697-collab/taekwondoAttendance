@@ -47,3 +47,16 @@ app.*.map.json
 # Agent configs with API keys
 .agents/
 
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.keystore
+*.jks
+*.p12
+*.cer
+*.mobileprovision
+
+# Firebase crashlytics / debug symbol uploads
+firebase_app_id_file.json
